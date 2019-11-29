@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Cadastro.jnlp">
+  <information>
+    <title>Cadastro</title>
+    <vendor>Ariel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Cadastro.jar" size="6566" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.15-bin.jar" size="785998" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="APP.Cadastro"  name="Cadastro" />
+  <update check="always"/>
+</jnlp>
